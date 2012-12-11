@@ -1,0 +1,105 @@
+/* Default gallery stylesheet */
+
+/** {outline: 1px solid red; }*/
+
+html,body {
+	background-color: #222;
+	color: #efefef;
+	font-family: arial;
+}
+
+div#world {
+	width: 1100px;
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	margin: 0 0 0 -550px;
+	clear: both;
+}
+
+/*
+	header and description
+*/
+h1 {
+	display: inline;
+	float: left;
+	margin: 30px 20px 5px 0px;
+}
+p#desc {
+	clear: left;
+	float: left;
+	padding: 0 20px 20px 0px;
+	color: #ccc;
+	text-align: justify;
+	font-size: 0.9em;
+	width: 370px;
+}
+
+/*
+	BIG center picture
+*/
+div#bigwrap {
+	display: table;
+	float: left;
+	position: fixed;
+	margin: 0 0 0 400px;
+	width: 670px;
+	height: 670px;
+	text-align: center;
+}
+div#big {
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0 auto;
+}
+div#big img {
+	border: 15px solid #222;
+	border-radius: 3px;
+	visibility: visible;
+}
+
+/*
+	List of thumbnails
+*/
+div#thumbs {
+	clear: left;
+	float: left;
+	width: 400px;
+	padding: 0 0 100px 0;
+}
+div.thumb {
+	float: left;
+	width: 80px;
+	height: 80px;
+	padding: 8px;
+	margin: 0 auto;
+}
+div.thumb img {
+	border-width: 0px;
+	border-style: solid;
+	border-color: #666;
+	border-radius: 2px;
+	margin: 0;
+	padding: 0;
+}
+div.thumb img:hover {
+	border: 2px solid #eee;
+	width: 96px;
+	height: 96px;
+	padding: 0;
+	position: relative;
+	top: -8px;
+	left: -8px;
+}
+
+/*
+	A small credit part :-)
+*/
+div#credits {
+	position: absolute;
+	top: 2px;
+	left: 5px;
+	color: #666;
+	font-style: italic;
+	font-size: 0.7em;
+}

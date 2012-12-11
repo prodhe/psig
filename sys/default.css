@@ -1,0 +1,80 @@
+/* DEFAULT Stylesheet */
+
+html,body {
+	font-family: arial;
+	font-size: 14px;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+div#div_installation_log {
+	margin-top: 20px;
+	font-family: Courier;
+	display: none;
+}
+
+div#world {
+	position: relative;
+	left: 50%;
+	top: 30px;
+	width: 800px;
+	padding: 40px;
+	margin: 0 0 50px -400px;
+	background-color: #efefef;
+	border: 3px solid #dedede;
+	border-radius: 10px;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+fieldset {
+	margin-top: 40px;
+	border: 1px dotted #555;
+	border-radius: 5px;
+}
+fieldset legend {
+	padding: 5px 15px 5px 15px;
+	border: 1px dotted #555;
+	border-radius: 3px;
+}
+
+dl {
+	margin-left: 25px;
+}
+dl dt {
+	margin: 7px 15px 0px 0px;
+	width: 90px;
+	float: left;
+}
+dl dd {
+	margin-left: 120px;
+}
+dl dd span.explain {
+	font-style: italic;
+	font-size: 0.9em;
+}
+dl dd emph {
+	margin: 5px 0px 10px 0px;
+	display: block;
+}
+form input[type="text"], form textarea {
+	font-family: Arial;
+	font-size: 1.0em;
+	padding: 5px;
+	border: 1px dotted #555;
+	border-radius: 3px;
+}
+form input[type="button"] {
+	font-size: 1.2em;
+}
+
+p#footer {
+	font-style: italic;
+	font-size: 0.8em;
+	text-align: right;
+	margin-top: 40px;
+}
